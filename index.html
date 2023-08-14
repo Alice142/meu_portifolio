@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Alice Portfólio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/src/css/styles.css">
+        <link rel="icon" href="src/img/ame.png">
+        <!--Fontes -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+        <!--Animate CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+        <!--Carousel-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+
+    </head>
+    <body>
+        <header id="home" class="fixed-header">
+            <h2 class="nome_alice animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)">
+              Alice Silva
+            </h2>
+            <nav >
+              <ul class="nav__links">
+                  <li class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)">
+                    <a href="#" >Home</a>
+                  </li>
+                  <li class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" >
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" >
+                    <a href="#projetos">Projetos</a>
+                  </li>
+              </ul>
+            </nav>
+            
+            <p class="menu cta">Menu</p>
+            <div class="icone-git">
+              <a href="https://github.com/Alice142" target="_blank">
+                 <lottie-player  class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0be43647-eda1-4904-b723-a2b21bf4f3a9/I0sTWdrw2z.json" speed="1" style="width: 4em; height: 4em" direction="1" mode="normal" loop autoplay></lottie-player>
+              </a>
+              
+              <a class="icon2" href="https://www.linkedin.com/in/alice-dev-dd34/" target="_blank">
+                <lottie-player class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0e268837-792b-4a48-b32c-3e769b1bcc7f/h1ggOWpIgg.json" background="Transparent" speed="1" style="width: 3em; height: 3em" direction="1" mode="normal" loop autoplay></lottie-player>
+              </a>
+            </div>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#home">home</a>
+                <a href="#skills">Skills</a>
+                <a href="#projetos">Projetos</a>
+            </div>
+        </div>
+        
+
+        <div id="social container"  >
+          <nav id="icons" class="icon">
+              <ul>
+                  <li>
+                      <a href="https://api.whatsapp.com/send/?phone=5544998226575&text=+&type=phone_number&app_absent=0" target="_blank">
+                          Whatsapp
+                          <span>
+                              <i class="fab fa-whatsapp" style="color: #ffffff;"></i>
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://github.com/Alice142" target="_blank">
+                          Github
+                          <span>
+                              <i class="fab fa-github" style="color: #fafafa;"></i>
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.linkedin.com/in/alice-dev-dd34/" target="_blank">Linkedin
+                          <span>
+                              <i class="fab fa-linkedin-in" style="color: #ffffff;"></i>
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.instagram.com/alice_oficial_011/" target="_blank">Instagram
+                          <span>
+                              <i class="fab fa-instagram" style="color: #ffffff;"></i>
+                          </span>
+                      </a>
+                  </li>
+              </ul>
+          </nav>
+        </div>
+
+        <main>
+         <div>
+            <div class="titulo-container">
+              <h1 class="escreve"> Olá me chamo Alice, sou uma programadora front end&#128522;</h1>
+            </div>
+            <br><br>
+            <p>
+              Explore o meu mundo no desenvolvimento front-end! <br>Neste portfólio, mergulhe em uma jornada pelos meus projetos diversificados e habilidades técnicas. Como entusiasta e dedicada desenvolvedora, busco constantemente forjar soluções inovadoras para enfrentar os mais diversos desafios. Bem-vindo ao meu espaço onde a criatividade e a tecnologia se encontram.
+
+            </p>
+         </div>
+        </main>
+
+        <section class="section_skills " id="skills">
+          <div class="container-skills" 
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-sine">
+            <div>
+              <h1>Skills</h1>
+              <p>Aqui, oferece-se uma visão da minha trajetória e competências.</p>
+              <div class="skills">
+                <div class="carousel">
+                  <div>
+                    <img src="src/img/css-3.png">
+                    <p>CSS</p>
+                  </div>
+                  <div>
+                    <img src="src/img/git.png">
+                    <p>Git</p>
+                  </div>
+                  <div>
+                    <img src="src/img/github.png">
+                    <p>GitHub</p>
+                  </div>
+                  <div>
+                    <img src="src/img/bootstrap.png"> 
+                    <p>Bootstrap</p> 
+                  </div>
+                  <div>
+                    <img src="src/img/react.png">
+                    <p>React</p>
+                  </div>
+                  <div>
+                    <img src="src/img/html.png">
+                    <p>HTML</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section_projetos" id="projetos">
+          <h1>Projetos</h1>
+          <p class="texto_section_projeto">Explore minha galeria de projetos! Abaixo, apresento a você alguns dos meus trabalhos mais recentes e empolgantes.</p>
+          
+            <div class="todos_projetos">
+              <div class="projeto">
+                  <img id="slideImage" src="src/img/GBT.PNG" alt="Imagem de Projeto">
+                  <div class="slid_projeto">
+                    <h2>GBT Viagens</h2>
+                    <p>HTML CSS JS Bootstrap</p>
+                    <div class="links-projetos">
+                      <a class="link_1"  href="https://github.com/Alice142/projetoGBT" target="_blank">
+                        <lottie-player  class="animate__animated  responsive-lottie" onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0be43647-eda1-4904-b723-a2b21bf4f3a9/I0sTWdrw2z.json" speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                      </a>
+                      <a class="link_2" href="https://alice142.github.io/projetoGBT/" target="_blank">
+                        <lottie-player   class="animate__animated responsive-lottie" onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/7527a321-d65c-4ac7-b3bb-caf1d9012fac/dM3M05qAey.json"  speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                      </a>
+                    </div>                
+                  </div>
+              </div>
+            
+              <div class="projeto">
+                <img id="slideImage" src="src/img/portifolio.PNG" alt="Imagem de Projeto" target="_blank">
+                <div class="slid_projeto">
+                  <h2>1° Portfólio</h2>
+                  <p>HTML CSS JS </p>
+                  <div class="links-projetos">
+                    <a class="link_1"  href="https://github.com/Alice142/portfolio" target="_blank">
+                      <lottie-player  class="animate__animated responsive-lottie " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0be43647-eda1-4904-b723-a2b21bf4f3a9/I0sTWdrw2z.json" speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </a>
+                    <a class="link_2" href="https://alice142.github.io/portfolio/#sobre-mim" target="_blank">
+                      <lottie-player class="animate__animated  responsive-lottie" onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/7527a321-d65c-4ac7-b3bb-caf1d9012fac/dM3M05qAey.json"  speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+
+                    </a>
+                  </div>                
+                </div>
+              </div>
+              <div class="projeto">
+                <img id="slideImage" src="src/img/finas.PNG" alt="Imagem de Projeto" >
+                <div class="slid_projeto">
+                  <h2>$ Finas</h2>
+                  <p>HTML CSS JS Bootstrap</p>
+                  <div class="links-projetos">
+                    <a class="link_1"  href="https://github.com/Alice142/projeto-finas" target="_blank">
+                      <lottie-player  class="animate__animated responsive-lottie" onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0be43647-eda1-4904-b723-a2b21bf4f3a9/I0sTWdrw2z.json" speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </a>
+                    <a class="link_2" href="https://alice142.github.io/projeto-finas/" target="_blank">
+                      <lottie-player class="animate__animated responsive-lottie" onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/7527a321-d65c-4ac7-b3bb-caf1d9012fac/dM3M05qAey.json"  speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projeto">
+                <img id="slideImage" src="src/img/infusion.PNG" alt="Imagem de Projeto">
+                <div class="slid_projeto">
+                  <h2>Infusion</h2>
+                  <p>HTML CSS JS </p>
+                  <div class="links-projetos">
+                    <a class="link_1"  href="https://github.com/Alice142/infusion" target="_blank">
+                      <lottie-player  class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0be43647-eda1-4904-b723-a2b21bf4f3a9/I0sTWdrw2z.json" speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </a>
+                    <a class="link_2" href="https://alice142.github.io/infusion/" target="_blank">
+                      <lottie-player class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/7527a321-d65c-4ac7-b3bb-caf1d9012fac/dM3M05qAey.json"  speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projeto">
+                <img id="slideImage" src="src/img/spotify.PNG" alt="Imagem de Projeto">
+                <div class="slid_projeto">
+                  <h2>Spotify</h2>
+                  <p>HTML CSS JS Bootstrap</p>
+                  <div class="links-projetos">
+                    <a class="link_1"  href="https://github.com/Alice142/spotify" target="_blank">
+                      <lottie-player  class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0be43647-eda1-4904-b723-a2b21bf4f3a9/I0sTWdrw2z.json" speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </a>
+                    <a class="link_2" href="https://alice142.github.io/spotify/" target="_blank">
+                      <lottie-player class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/7527a321-d65c-4ac7-b3bb-caf1d9012fac/dM3M05qAey.json"  speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projeto">
+                <img id="slideImage" src="src/img/lol.PNG" alt="Imagem de Projeto">
+                <div class="slid_projeto">
+                  <h2>League of Legends</h2>
+                  <p>HTML CSS JS Bootstrap</p>
+                  <div class="links-projetos">
+                    <a class="link_1"  href="https://github.com/Alice142/pojeto-league-of-legends" target="_blank">
+                      <lottie-player  class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0be43647-eda1-4904-b723-a2b21bf4f3a9/I0sTWdrw2z.json" speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </a>
+                    <a class="link_2" href="https://alice142.github.io/pojeto-league-of-legends/" target="_blank">
+                      <lottie-player class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/7527a321-d65c-4ac7-b3bb-caf1d9012fac/dM3M05qAey.json"  speed="1" style="width: 10em; height: 10em" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          
+            
+        </section>
+        <section class="meu_github">
+          <div class="div_meu_github" >
+            <a href="https://github.com/Alice142" target="_blank">  
+              Se desejar explorar mais, dê uma olhada no meu
+              GitHub 
+              <img src="src/img/github-2.png" height=  "30em" >
+            </a>
+          </div>
+        </section>
+        <footer>
+         
+          <div class="icone-git1">
+            <div>
+              <p>	&#169; 2023. Todos os direitos reservados</p>
+            </div>
+
+            <div class="div-icon-git">
+              <a href="https://github.com/Alice142" target="_blank">
+                <lottie-player  class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0be43647-eda1-4904-b723-a2b21bf4f3a9/I0sTWdrw2z.json" speed="1" style="width: 4em; height: 4em" direction="1" mode="normal" loop autoplay></lottie-player>
+             </a>
+             
+             <a class="icon2" href="https://www.linkedin.com/in/alice-dev-dd34/" target="_blank">
+               <lottie-player class="animate__animated " onmouseover="addNavClass(this)" onmouseout="removeNavClass(this)" src="https://lottie.host/0e268837-792b-4a48-b32c-3e769b1bcc7f/h1ggOWpIgg.json" background="Transparent" speed="1" style="width: 3em; height: 3em" direction="1" mode="normal" loop autoplay></lottie-player>
+             </a>
+            </div>
+          </div>
+        </footer>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <script type="text/javascript" src="src/js/mobile.js"></script>
+      <script type="text/javascript" src="src/js/scripts.js"></script>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <script>
+        AOS.init();
+      </script>
+    
+    </body>
+</html>
