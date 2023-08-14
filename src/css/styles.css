@@ -14,7 +14,12 @@ body{
   background-color: rgba(184,96,123);
 }
 
-
+::-webkit-scrollbar{
+  width: 0.7em;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(155, 4, 147);
+}
 
 .fixed-header {
   position: fixed;
